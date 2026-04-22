@@ -94,7 +94,7 @@ const AboutPage = () => {
         </motion.div>
 
         <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }} style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
-          {principles.map((p, i) => (
+          {principles.map((p) => (
             <motion.div key={p.num} variants={itemVariants} whileHover={{ y: -6 }} style={{ padding: '2.5rem', borderRadius: '32px', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.06)', backdropFilter: 'blur(20px)', position: 'relative', overflow: 'hidden' }}>
               <div style={{ position: 'absolute', top: '-10px', right: '1.5rem', fontSize: '5rem', fontWeight: 900, opacity: 0.04, lineHeight: 1 }}>{p.num}</div>
               <div style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.2em', textTransform: 'uppercase', color: '#c084fc', marginBottom: '1.5rem' }}>{p.num}</div>
