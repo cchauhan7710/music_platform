@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://cchauhan7710.github.io/music",
+  "homepage": "https://cchauhan7710.github.io/music_platform",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
